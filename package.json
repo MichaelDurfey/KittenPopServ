@@ -1,0 +1,31 @@
+{
+  "name": "kittenpopserv",
+  "version": "1.0.0",
+  "description": "Rest API for Kitten Pop",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelDurfey/KittenPopServ.git"
+  },
+  "keywords": [
+    "kitten",
+    "game",
+    "fun",
+    "strategy",
+    "cats",
+    "music"
+  ],
+  "author": "Michael Durfey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelDurfey/KittenPopServ/issues"
+  },
+  "homepage": "https://github.com/MichaelDurfey/KittenPopServ#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  }
+}
