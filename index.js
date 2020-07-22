@@ -5,7 +5,7 @@ const app = express();
 
 app.use("/", routes);
 
-app.listen(5000, () => {
+app.listen(process.env.PORT || 5000, () => {
   // eslint-disable-next-line no-console
-  console.log("listening on port 3000!");
+  console.log("listening on port" + process.env.PORT || 5000);
 });
