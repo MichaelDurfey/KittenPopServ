@@ -38,7 +38,6 @@ router.get("/leaders", (req, res) => {
       res.send("Sorry, something went wrong: " + err);
       return;
     }
-    res.set("Access-Control-Allow-Origin", "*");
     if (!reply) {
       res.send([]);
       return;

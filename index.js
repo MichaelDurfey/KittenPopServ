@@ -1,6 +1,6 @@
+require("dotenv").config();
 const express = require("express");
 const routes = require("./router");
-
 const app = express();
 
 app.use(require("body-parser").json());
